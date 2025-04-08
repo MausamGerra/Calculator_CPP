@@ -1,5 +1,5 @@
 # Calculator_CPP
-**To view the code files, please visit https://github.com/MausamGerra/Calculator_CPP**
+To view the code files, please visit https://github.com/MausamGerra/Calculator_CPP or click on "View Project on GitHub" above.
 
 **Infix to Postfix Expression Converter (C++)**
 
