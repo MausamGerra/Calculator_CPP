@@ -1,0 +1,25 @@
+project(assignment3){
+    exename = assignment3
+    install =.
+
+    specific(make, gnuace){
+    	compile_flags += -std = c++ 11
+	}
+
+     Source_Files{
+	driver.cpp 
+	Expr_Parser.cpp 
+	Expr_Evaluator.cpp
+	}
+
+      Header_Files{
+	Stack.h 
+	Expr_Node.h 
+	Expr_Command.h 
+	Number_Command.h 
+	Operator_Commands.h 
+	Expr_Evaluator.h
+	}
+
+       Includes{.}
+}
